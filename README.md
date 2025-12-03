@@ -1,10 +1,13 @@
 ## In-App Billing Plugin for .NET MAUI  and Windows
 
+> Important Note: I do not plan on continuing support for this library. As noted in April of 2025: In App Purchase APIs have always been extremely complex, hard to manage, hard to update, and hard to streamline into a single API. I have enjoyed working and evolving this project over the years, but with StoreKit being deprecated for StoreKit2 and the ever-evolving Android Billing Library that always has massive changes, I simply do not have the time and energy to keep the library up to date. I appreciate everyone that has contributed over and used the library over the years. I encourage forking and evolving the library and of course you can just pull the source code into your project directly. 
+
 A simple In-App Purchase plugin for .NET MAUI and Windows to query item information, purchase items, restore items, and more.
 
 Subscriptions are supported on iOS, Android, and Mac. Windows/UWP/WinUI 3 - does not support subscriptions at this time.
 
 ## Important Version Information
+* v10 now supports .NET 10+ and Android Billing v8
 * v9 now supports .NET 9+ and Android Billing v7
 * v8 now supports .NET 8+ .NET MAUI and Windows Apps.
 * v7 now supports .NET 6+, .NET MAUI, UWP, and Xamarin/Xamarin.Forms projects
@@ -23,7 +26,6 @@ Get started by reading through the [In-App Billing Plugin documentation](https:/
 | ------------------- | :------------------: |
 |iOS for .NET|10+|
 |macCatlyst for .NET |All|
-|tvOS for .NET|10.13.2|
 |Android for .NET|21+|
 |Windows App SDK (WinUI 3) |10+|
 |.NET MAUI|All|
